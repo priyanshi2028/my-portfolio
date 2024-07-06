@@ -207,9 +207,137 @@
 #moon{
     position: absolute;
    /* margin-top:5px; */
+
+   top:0 !important;
     left: 7%;
     width: 300px;
     z-index: 1;
+}
+@media only screen and (max-width: 391px){
+ #nav-part2 h4{
+    font-size: 12px !important;
+ }
+ 
+    #moon{
+      
+        width : 50%;
+    }
+    .parallax #text{
+        font-size: 2em!important;
+       
+      
+    }
+    .parallax #hill2{
+        transform: scale(3);
+    
+    }
+    .page1{
+        min-height: fit-content !important;
+    }
+   .page1 h1{
+    color: black;
+    margin-left: 30vw!important;
+   }
+   .page1 h2{
+    color: black;
+   margin-left: 0 !important;
+   }
+   .page2 h1 {
+    font-size: 14vw;
+    /* font-weight: 500; */
+    /* color: #111; */
+}
+   .page2-container{
+    display: block;
+   }
+   .page2-left {
+    width: 100%;
+   }
+   .page2-right {
+    width: 100%;
+    margin: 20px 0px;
+   }
+   .page2-left h2{
+    font-size: x-large;
+    font-weight: 400;
+    margin-bottom: 20px;
+   }
+   .page2-right p {
+    font-size: large;
+    color: #111;
+    margin-bottom: 20px;
+    }
+    .page3{
+        padding: 20px;
+    }
+    .page3 h1{
+        text-align: center;
+        font-size: 9vw !important;
+        margin-left: 0!important;
+    }
+    .page3-part1 {
+        display: block!important;
+    }
+    .page3-part1 img {
+        margin-top: 50px!important;
+    }
+    .page4{
+        padding: 97px 40px!important;
+    }
+    .text-div {
+        height: 6vh!important;
+    }
+    .elem h1 {
+        font-size: 13.5vw !important;
+    }
+    .elem img{
+        width: 28% !important;
+    }
+    .page5{
+        min-height: 60vh !important;
+        padding: 20px 20px !important;
+    }
+    .page5 h2 {
+        font-size: 11.5vw !important;
+    }
+    #skills{
+        padding-top: 60px !important;
+    }
+    #skills h2 {
+        font-size: 11.5vw !important;
+    }
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .skill-category {
+        width: 100% !important;
+    }
+    .page6{
+        height: 100vh;
+    }
+    .page7{
+        min-height: fit-content!important;
+        padding: 40px 20px !important;
+    }
+    .page7 h2{
+        font-size: 11.5vw !important;
+    }
+    .page7 .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .message{
+        display: none;
+    }
+    
+}
+
+#leaf{
+    top:0 !important;
 }
 .parallax img {
    filter: grayscale(100%);
@@ -228,7 +356,8 @@
 }
 .parallax img{
     position: absolute;
-    top: -10%;
+    /* top: -10%; */
+    bottom: 0;
     left: 0;
     width: 100%;
     pointer-events: none;
@@ -355,7 +484,7 @@
     font-size: 6.8vw;
     font-weight: 300;
     color: #111;
-    margin-left: 100px;
+    text-align: center;
 }
 .page3-part1{
     display: flex;

@@ -1,11 +1,12 @@
 // paraklx
+
+
 // Select your elements
 const text = document.getElementById("text");
 const leaf = document.getElementById("leaf");
 const hill1 = document.getElementById("hill1");
 const hill2 = document.getElementById("hill2");
 const hill3 = document.getElementById("hill3");
-
 const moon = document.getElementById("moon");
 const plant = document.getElementById("plant");
 const hill5 = document.getElementById("hill5");
@@ -45,10 +46,6 @@ tl1.from(leaf, {
   duration: 3,
   ease: "elastic.out(1,0.3)",
 });
-
-// tl1.from(".main", {
-//   backgroundColor: 'gray',
-// })
 
 
 

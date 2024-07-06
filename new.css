@@ -112,3 +112,16 @@
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
+
+  @media only screen and (max-width: 391px){
+  .content{
+    top: 25%;
+  }
+    .content h1 {
+        font-size: 50px;
+    }
+    .banner .slider , .banner .slider{
+        width: 137px;
+    height: 63px;
+    }
+  }
